@@ -120,43 +120,52 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Research Assistant",
+    company_name: "USC Viterbi School of Engineering",
+    icon: usc,
+    iconBg: "#FFFFFF",
+    date: "AUG 2025 - Present",
+    points: [
+      "Develop Agentic AI frameworks integrated with interactive web interfaces using React, JavaScript, and TypeScript, enabling users to visualize reasoning outcomes, interact with dynamic dashboards, and improve task automation efficiency across research prototypes.",
+      "Design and test multi-agent architectures for information extraction, ranking, and adaptive planning, connecting AI reasoning outputs to web frontends and enhancing coordination accuracy, interface responsiveness, and user experience for complex workflows."
+    ],
+  },
+  {
     title: "Computer Science Grader",
     company_name: "University of Southern California",
     icon: usc,
     iconBg: "#FFFFFF",
-    date: "AUG 2024 - Present",
+    date: "AUG 2024 - May 2025",
     points: [
-      "Ranked in top 2%  of 481 students and appointed as a grader for the Web Technologies course under Prof. Marco Papa.",
+      "Ranked in top 1%  of 481 students and appointed as a grader for the Web Technologies course under Prof. Marco Papa.",
       "Assisted in instructing students on assignments and homework related to MERN and MEAN stacks, Kotlin for Android Development, and Flask.",
       "Graded assignments, homework, and exams while supporting the professor in evaluating the course.",
       "Provided guidance to students to improve their understanding of modern web technologies and development frameworks.",
     ],
-
   },
   {
     title: "Software Engineer - 1",
-    company_name: "Harman International",
+    company_name: "SAMSUNG (Harman International)",
     icon: harman,
     iconBg: "#FFFFFF",
     date: "MAR 2023 - JUN 2023",
     points: [
-      "Tech Stack - Android, Stable Aidl, C++, Java, Rapid Json, IOC, SomeIP, Multi Core IPC, DSI.",
-      "Responsible for developing and integrating CI/CD pipelines, delivering code across 6 cross-functional teams using Agile workflows.",
-      "Developed 4 Remote Procedure Calls using client-server architecture and event-driven programming, ensuring high-performance.",
-      "Replaced HIDL with Stable AIDL supporting cross-language features and ported to Android S, reducing development time by 40%."
+      "Directed CI/CD pipeline integration across 6 cross-functional teams, ensuring smooth, streamlined deployments using Agile workflows.",
+      "Implemented 4 Remote Procedure Calls using client-server architecture and event-driven programming, ensuring high-performance.",
+      "Enhanced cross-platform UI communication by replacing HIDL with Stable AIDL modules, cutting down development time by 40%."
     ],
   },
   {
     title: "Associate Software Engineer",
-    company_name: "Harman International",
+    company_name: "SAMSUNG (Harman International)",
     icon: harman,
     iconBg: "#FFFFFF",
     date: "OCT 2020 - FEB 2023",
     points: [
-      "Tech Stack - Adaptive Autosar, Linux, Common API, OpenSSL, DAC, MAC, AX8 Softcore.",
-      "Responsible for end-to-end strategic module development, following the 7 phases of the Software Development Life Cycle (SDLC).",
-      "Conducted root cause analysis and resolved top-priority, release-gating tickets in a short span, saving 50% of the allocated time.",
-      "Developed python scripts to automatically generate CodeSonar and unit test reports, reducing 300 hours weekly across 6 teams."
+      "Formulated and led end-to-end strategic module development, driving all 7 phases of the Software Development Life Cycle (SDLC).",
+      "Performed root cause analysis and fixed UI and integration defects, improving stability and minimizing issue resolution time by 50%.",
+      "Automated reporting pipelines using custom scripts, reducing manual QA time by 300 hours across 6 teams and accelerating releases.",
+      "Recognized as a best performer in 7 Program Increments for consistent delivery, UI improvements, and cross-team collaboration."
     ],
   },
   {
@@ -166,10 +175,8 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "DEC 2019 - JUN 2020",
     points: [
-      "Tech Stack - Python, Computer Vision, Transfer Learning, Deep Learning, Flask, Anaconda.",
-      "Engineered an automated player tracking system using Deep Learning and OpenCV in a multi-camera environment, enhancing real-time analytics for major tournaments such as the Premier Badminton League, which reached a peak viewership of 1.5 million.",
-      "Partnered with the Star Sports broadcast crew to deliver real-time statistics and analysis during live broadcasts, significantly enhancing viewer experience.",
-      "Initiated research in soccer by implementing advanced techniques such as color segmentation and spatial transformation, achieving 95.6% accuracy in player tracking and providing valuable data insights.",
+      "Engineered an Automated Player Tracking system in a multi-camera environment with 95.6% accuracy, providing real-time statistics.",
+      "Collaborated with Star Sports broadcast crew for Premier Badminton League tournament, reaching a peak viewership of 1.5 million.",
     ],
   }
 ];
